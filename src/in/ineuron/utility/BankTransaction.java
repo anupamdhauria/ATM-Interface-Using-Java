@@ -6,10 +6,10 @@ public interface BankTransaction {
 
 	User validateUser(Integer customerId,Integer customerPin,Bank bank);
 	void checkBalance(User user,Bank bank);
-	void transferMoney(User user,Scanner sc);
-	void transactionHistory(User user);
-	void withdrawAmount(User user,Scanner sc);
-	void depositeAmount(User user,Scanner sc);
+	void transferMoney(User user,Scanner sc,Bank bank);
+	void withdrawAmount(User user,Scanner sc,Bank bank);
+	void depositeAmount(User user,Scanner sc,Bank bank);
 	void exitAtm();
+	void transactionHistory(User user, Bank bank);
 	
 }
