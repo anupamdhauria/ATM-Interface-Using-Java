@@ -31,7 +31,7 @@ public class IneuronAtm {
 		User newUser2 = bank.addNewCustomer("Akash", "Singh", 11111);
 		Account newAccount2 = bank.newAccount("Savings", 80000.00, newUser2);
 		System.out.print(newUser2.getFirstName() + " " + newUser2.getLastName() + " " + "created with customerId  "
-				+ newUser2.getCustId()+" "+"With Account No "+newAccount.getAccountNumber());
+				+ newUser2.getCustId()+" "+"With Account No "+newAccount2.getAccountNumber());
 		System.out.println();
 
 		//taking input form user
